@@ -50,6 +50,7 @@ fun DadoaBota(modifier: Modifier = Modifier){
         Column(
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.SpaceAround
         ) {
             Text(
                 text = "Dadoa bota:",
